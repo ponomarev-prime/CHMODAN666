@@ -1,0 +1,43 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+# Object files
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+_testmain.go
+
+# Generated test files
+test.out
+
+# Generated files from running `go generate`
+*_gen.go
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.coverprofile
+
+# User-specific files
+.idea/
+.vscode/
+.DS_Store
+*.iml
+
+# GoLand IDE settings
+.idea/
+*.iws
+*.ipr
+
+# Compiled binary
+main
