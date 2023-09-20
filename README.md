@@ -1,11 +1,8 @@
 # CHMODAN
 
-Однажды у меня спросили:
-
-[How to fix "chmod" permissions after running "chmod 222 /bin/chmod"?](https://askubuntu.com/questions/1483230/how-to-fix-chmod-permissions-after-running-chmod-222-bin-chmod)
+Однажды у меня спросили: [How to fix "chmod" permissions after running "chmod 222 /bin/chmod"?](https://askubuntu.com/questions/1483230/how-to-fix-chmod-permissions-after-running-chmod-222-bin-chmod)
 
 И я ответил: 
-
 ```
 os.Chmod(fileName, 0666)
 ```
